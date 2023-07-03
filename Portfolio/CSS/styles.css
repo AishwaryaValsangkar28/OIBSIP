@@ -1,0 +1,319 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );
+    color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    font-size: 35px;
+    font-family: 'Moon Dance', cursive;
+    padding: 0 70px;
+    flex-wrap: wrap;
+}
+
+.left{
+    color: #64CCC5;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    padding: 0.5rem 1rem;
+}
+
+.navbar a:hover{
+    color: aquamarine;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 65px;
+}
+
+.right-section{
+    flex-basis: 40%;
+}
+
+.right-section img{
+    margin: 45px 0;
+}
+
+.left-section h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 65px;
+}
+
+.left-section h1 span{
+    color: #64CCC5;
+}
+
+.left-section p{
+    font-family: 'Montez', cursive;
+    font-size: 60px;
+}
+
+/* about section */
+
+#about{
+    padding: 100px 50px;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+
+.about-text{
+    flex-basis: 50%;
+}
+
+.about-text h2{
+    color: #C4DFDF;
+    font-family: 'Sacramento', cursive;
+    font-size: 60px;
+    text-align: justify;
+}
+
+.about-text h3{
+    font-family: 'Moon Dance', cursive;
+    font-size: 50px;
+}
+
+.about-text p{
+    font-family: 'Moon Dance', cursive;
+    font-size: 35px;
+}
+
+.tab-title{
+    display: flex;
+    margin: 20px 0 40px;
+}
+
+.tab-links{
+    margin-right: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    font-weight: 800;
+}
+
+.tab-links .active-link::after{
+    width: 50%;
+}
+
+.tab-contents ul li{
+    font-family:'Moon Dance', cursive;
+    list-style: none;
+    margin: 10px 0;
+    font-size: 25px;
+    font-weight: 500 ;
+}
+
+.tab-contents ul li span{
+    color: #3AA6B9;
+    font-weight: 500;
+}
+
+/* skills section */
+
+#skills{
+    display: flex;
+    justify-content: center;
+    padding: 100px 80px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.skills-text h2{
+    color: #C4DFDF;
+    font-family: 'Sacramento', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+/* web image */
+.web-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.web-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.web-row h3{
+    font-family:'Moon Dance', cursive;
+    font-size: 40px;
+}
+
+.web-row p{
+    font-family:'Moon Dance', cursive;
+    font-size: 30px;
+}
+
+/* java image */
+.java-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.java-img{
+    width: 20%;
+    float: right;
+    margin-left: 25px;
+}
+
+
+.java-row h3{
+    font-family:'Moon Dance', cursive;
+    font-size: 40px;
+    
+}
+
+.java-row p{
+    font-family:'Moon Dance', cursive;
+    font-size: 30px;
+}
+
+/* python image */
+
+.py-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.py-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.py-row h3{
+    font-family: 'Moon Dance', cursive;
+    font-size: 40px;
+}
+
+.py-row p{
+    font-family: 'Moon Dance', cursive;
+    font-size: 30px;
+}
+
+/* design image */
+
+.design-img{
+    width: 20%;
+    float: right;
+    margin-left: 25px;
+}
+
+.des-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.des-row h3{
+    font-family:'Moon Dance', cursive;
+    font-size: 40px;
+    
+}
+
+.des-row p{
+    font-family:'Moon Dance', cursive;
+    font-size: 30px;
+}
+
+/* contact section */
+
+#contact{
+    display: flex;
+    justify-content: center;
+    padding: 100px 50px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.contact{
+    flex-basis: 50%;
+}
+
+.contact h2{
+    color: #C4DFDF;
+    font-family: 'Sacramento', cursive;
+    font-size: 60px;
+}
+
+.contact p{
+    color: #C4DFDF;
+    font-family:'Moon Dance', cursive;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.icons{
+    margin-top: 30px;
+}
+
+.icons img{
+    text-decoration: none;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+/* footer section */
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 50px 0 20px;
+    background-image: radial-gradient( circle farthest-corner at 1.3% 2.8%,  rgba(239,249,249,1) 0%, rgba(182,199,226,1) 100.2% );
+    font-weight: 300;
+    margin-top: 50px; 
+}
+
+.footer a{
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    color: #66BFBF;
+    text-decoration: none;
+    margin: 10px 20px;
+}
+
+.footer a:hover{
+    color: black;
+}
+
+.copyright{
+    font-family: 'Merriweather', serif;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}

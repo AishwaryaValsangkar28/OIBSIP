@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter Website</title>
+
+    <!--CSS link-->
+    <link rel="stylesheet" href="CSS/styles.css">
+
+    <!--Google Font Link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montez&family=Montserrat&family=Playfair+Display:ital@1&family=Sacramento&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="heading">Temperature Converter</h1>
+        <div class="temp-container">
+            <label for="celcius">Celcius</label>
+            <input type="number" name="celcius" id="celcius" onchange="temp(event)"  placeholder="Enter temp in Celcius">
+        </div>
+
+        <div class="temp-container">
+            <label for="fahrenheit">Fahrenheit</label>
+            <input type="number" name="fahrenheit" id="fahrenheit" onchange="temp(event)" placeholder="Enter temp in kelvin">
+        </div>
+
+        <div class="temp-container">
+            <label for="Kelvin">Kelvin</label>
+            <input type="number" name="kelvin" id="kelvin" onchange="temp(event)" placeholder="Enter temp in kelvin">
+        </div>
+
+    </div>
+
+    
+
+
+
+
+
+
+    <script src="index.js"></script>
+
+</body>
+</html>

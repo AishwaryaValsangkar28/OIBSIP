@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+    font-family: 'Sacramento', cursive;
+    font-size: 50px;
+    color: black;
+}
+
+label{
+    font-size: 40px;
+}
+
+.container{
+    background-image: radial-gradient( circle farthest-corner at 92.3% 71.5%,  rgba(83,138,214,1) 0%, rgba(134,231,214,1) 90% );
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading{
+    font-size: 50px;
+}
+
+.temp-container{
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+input{
+    width: 60%;
+    font-family: 'Playfair Display', serif;
+    padding: 5px;
+    outline: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+@media(min-width: 600px){
+    .container{
+        width: 70%;
+    }
+
+    input{
+        width: 50%;
+    }
+}
+
+@media(min-width: 900px){
+    .conatiner{
+        width: 60%;
+    }
+
+    input{
+        width: 40%;
+    }
+}
